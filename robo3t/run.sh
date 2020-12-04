@@ -1,0 +1,1 @@
+docker run -d --rm --name robo3t-container --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" -v "$HOME/data/robo3t/3T:/root/.3T" -v "$HOME/data/robo3t/config:/root/.config/3T" robo3t-image
